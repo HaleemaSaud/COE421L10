@@ -2,6 +2,7 @@ import java.util.Random;
 
 // Observer. Each friend has a 50% chance of asking Eren to be safe,
 // and if Eren's energy is below 20 they also encourage him to rage.
+// Friend observes Eren's energy and responds with messages.
 public class Friend implements ErenObserver {
 
     private String name;
